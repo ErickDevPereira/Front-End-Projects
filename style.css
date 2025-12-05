@@ -1,0 +1,237 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=BBH+Sans+Hegarty&family=Bebas+Neue&family=Caveat:wght@400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Bebas+Neue&family=Caveat:wght@400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font1: 'Bebas Neue', sans-serif;
+    --font2: Arimo, sans-serif;
+    --font3: Caveat, serif;
+    --color1: rgb(39, 39, 39);
+    --color2: #BE3D2A;
+    --color3: #E78B48;
+    --color4: #F5C45E;
+    --color5: #102E50;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    font-family: var(--font2);
+    background-color: var(--color1);
+    color: white;
+    min-width: 320px;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+header > h1 {
+    font-size: 6vw;
+    text-align: center;
+    font-family: var(--font1);
+    color: var(--color3);
+}
+
+header {
+    background-image: linear-gradient(to right,black, var(--color5), black);
+}
+
+body {
+    background-image: url('images/background.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header a {
+    background-color: var(--color3);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    margin-left: 46%;
+    font-family: var(--font2);
+    font-weight: bold;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+header a:hover {
+    background-color: #e77548;
+}
+
+nav {
+    padding-bottom: 20px;
+}
+
+p {
+    text-indent: 20px;
+    margin-bottom:10px;
+    line-height: 25px;
+}
+
+section > h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.bg_img {
+    box-shadow:inset 0px 0px 30px 20px rgba(0, 0, 0, 0.449);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 50px;
+    background-attachment: fixed;
+}
+
+#salazar {
+    background-position: right top;
+    background-image: url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/03/resident-evil-4-remake-salazar-hat.jpeg');
+}
+
+#name_salazar {
+    margin-top: 3%;
+    margin-left: 60%;
+    font-size: 2em;
+}
+
+.placement {
+    min-width: 320px;
+    max-width: 700px;
+    background-color: rgba(0, 0, 0, 0.564);
+    height: 500px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.placement > p {
+    font-family: var(--font3);
+    font-size: 1.7em;
+    line-height: 40px;
+}
+
+#bitores {
+    background-image: url('https://i.ytimg.com/vi/qsoqkeGyWOU/maxresdefault.jpg');
+    background-position: right center;
+}
+
+#name_bitores {
+    margin-top: 15%;
+    margin-left: 60%;
+    font-size: 2em;
+}
+
+#saddler {
+    background-image: url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/04/resident-evil-4-remake-how-to-defeat-saddler.jpg');
+}
+
+#name_saddler {
+    margin-top: 15%;
+    margin-left: 60%;
+    font-size: 2em;
+}
+
+.table_char {
+    margin: auto;
+    margin-top: 60px;
+    border-collapse: collapse;
+    background-color: black;
+    margin-bottom: 60px;;
+}
+
+.table_char caption {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.table_char td {
+    width: 150px;
+    padding: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    text-align: center;
+    font-size: 1.5em;
+    height: 150px;
+}
+
+.table_char th {
+    width: 150px;
+    padding: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    text-align: center;
+    font-size: 1em;
+    height: 20px;
+}
+
+.ttitle {
+    height: 20px;
+}
+
+.struct_as_table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.struct_as_table td {
+    vertical-align: top;
+}
+
+.struct_as_table aside {
+    font-family: var(--font3);
+    color: rgba(255, 255, 255, 0.753);
+    font-size: 1.2em;
+    padding: 20px;
+    margin-left: 20px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow:inset 0px 0px 30px 20px rgba(0, 0, 0, 0.449);
+    background-image: url('https://i.pinimg.com/474x/ef/fa/93/effa93c2155fa4809d52415e3b5eeb44.jpg');
+    background-size: cover;
+}
+
+section.edit_section {
+    background-color: rgb(71, 71, 71);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, black, var(--color5));
+    color: white;
+    padding: 20px;
+}
+
+footer ul{
+    margin-left: 40px;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: gray;
+}
+
+ul a:active {
+    color: red;
+}
