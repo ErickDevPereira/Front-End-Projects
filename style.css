@@ -36,7 +36,7 @@ main {
 }
 
 header > h1 {
-    font-size: 6vw;
+    font-size: 4em;
     text-align: center;
     font-family: var(--font1);
     color: var(--color3);
@@ -58,7 +58,6 @@ header a {
     padding: 10px;
     border-radius: 10px;
     color: black;
-    margin-left: 46%;
     font-family: var(--font2);
     font-weight: bold;
     border-style: solid;
@@ -72,6 +71,8 @@ header a:hover {
 
 nav {
     padding-bottom: 20px;
+    width: 120px;
+    margin: auto;
 }
 
 p {
@@ -107,12 +108,13 @@ section > h1 {
 }
 
 .placement {
-    min-width: 320px;
-    max-width: 700px;
+    min-width: 200px;
+    max-width: 780px;
     background-color: rgba(0, 0, 0, 0.564);
     height: 500px;
     border-radius: 20px;
     padding: 30px;
+    overflow: auto;
 }
 
 .placement > p {
@@ -234,4 +236,8 @@ ul a:hover {
 
 ul a:active {
     color: red;
+}
+
+aside {
+    overflow: auto;
 }
